@@ -2,6 +2,12 @@
 <!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
-<text transform="matrix(1 0 0 1 53.2325 418.6844)" fill="#FFFFFF" font-family="'FontAwesome'" font-size="459.7976"></text>
+	 width="1000px" height="1000px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+<g enable-background="new    ">
+	<path fill="#FFFFFF" d="M859.8,244.1c9.6,9.6,17.8,22.6,24.6,39c6.8,16.4,10.3,31.5,10.3,45.2v591.2c0,13.7-4.8,25.3-14.4,34.9
+		c-9.6,9.6-21.2,14.4-34.9,14.4H155.7c-13.7,0-25.3-4.8-34.9-14.4c-9.6-9.6-14.4-21.2-14.4-34.9V98.4c0-13.7,4.8-25.3,14.4-34.9
+		c9.6-9.6,21.2-14.4,34.9-14.4h459.8c13.7,0,28.7,3.4,45.2,10.3c16.4,6.8,29.4,15.1,39,24.6L859.8,244.1z M829,903.1V377.6H615.5
+		c-13.7,0-25.3-4.8-34.9-14.4c-9.6-9.6-14.4-21.2-14.4-34.9V114.8H172.2v788.2H829z M631.9,118.9v193h193c-3.4-9.9-7.2-16.9-11.3-21
+		L653,130.2C648.9,126.1,641.9,122.4,631.9,118.9z"/>
+</g>
 </svg>
