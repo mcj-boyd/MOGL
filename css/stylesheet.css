@@ -1,16 +1,25 @@
-@import url('http://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+
+@import url('http://fonts.googleapis.com/css?family=Roboto:500,400italic,100,700italic,300,700,500italic,100italic,300italic,400|Roboto+Condensed:400,300,700' rel='stylesheet' type='text/css'>');
 
 h1, h2, h3, h4, h5, p {
     font-family: "Roboto Condensed";
+    font-weight: 400;
 }
 
 body {
     font-family: "Roboto Condensed";
     background-color:#f0f0f0;
+    margin: 0;
+    padding: 0;
 }
 
 td {
     padding: 2, 2, 2, 2;   
+}
+
+img{
+ width: 100%;   
 }
 
 * {
@@ -27,7 +36,7 @@ td {
 }
 
 #sidebar {
-    width: 15%;
+    width: 20%;
     height: 100%;
     background-color: #34282C;
     float: left;
@@ -35,8 +44,13 @@ td {
     font-size: 6vw;
 }
 
-#mogllogo img {
-    width: 100%;
+.logo{
+ background-color: #fff;
+ height: 15%;    
+}
+
+.logo img{
+ padding-top: 3%;   
 }
 
 ul {
@@ -54,17 +68,22 @@ ul h3 {
     font-size: 1vw;
 }
 
-ul img {
-    padding-right: 5px;
-    vertical-align: middle;
-    max-width: 25px;
+.menuuser{
+  margin-top: 3rem;   
 }
 
-.menuuser {
-    margin-bottom: 25px;
-    padding-left: 5px;
-    padding-bottom: 8px;
-    font-size: 1.5vw;
+.menuuser p{
+    font-size: 19px;
+    font-weight: 100;
+    padding-top: 1.8rem;
+}
+
+.menuuser img{
+ width: 30%;
+ float: left;
+ padding-left: 1rem;
+ padding-right: 1rem;    
+    
 }
 
 .menuitem {
@@ -77,10 +96,11 @@ ul img {
 
 #menu li:hover {
     background-color: #848482;
+    height: 5rem;
 }
 
 #main-content {
-    width: 85%;
+    width: 80%;
     height: 100%;
     background-color: #E5E4E2;
     float: left;
