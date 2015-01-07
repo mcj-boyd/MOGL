@@ -20,6 +20,38 @@ $(document).ready(function() {
         $('#elapsed-time-1').text(time); 
     }
     
+    $('#perspro').hide();
+    $('#myrepor').hide();
+    $('#myinv').hide();
+    
+    $('#menu li').click( function(){
+        if(this.id == "menuser"){
+            $('#menuser').css("background-color", "#848482");
+            $('#perspro').toggle("slide");
+            $('#myrepor').hide();
+            $('#menumyreports').css("background-color", "#34282C");
+            $('#myinv').hide();
+            $('#menumyinvoices').css("background-color", "#34282C");
+        }
+        if(this.id == "menumyreports"){
+            $('#menumyreports').css("background-color", "#848482");
+            $('#myrepor').toggle("slide");
+            $('#perspro').hide();
+            $('#menuser').css("background-color", "#34282C");
+            $('#myinv').hide();
+            $('#menumyinvoices').css("background-color", "#34282C");
+        }
+        if(this.id == "menumyinvoices"){
+            $('#menumyinvoices').css("background-color", "#848482");
+            $('#myinv').toggle("slide");
+            $('#myrepor').hide();
+            $('#menumyreports').css("background-color", "#34282C");
+            $('#perspro').hide();
+            $('#menuser').css("background-color", "#34282C");
+        }
+        
+    });
+    
     $('#contact-info-1').hide();
     $('#project-description-1').hide();
     $('#project-timer-1').hide();

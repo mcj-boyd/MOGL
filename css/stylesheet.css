@@ -134,22 +134,25 @@ ul h3 {
     width: 80%;
     height: 100%;
     background-color: #E5E4E2;
-    float: left;
     overflow: scroll;
 }
 
-#leftprojectpane {
-    float: left;
-    width: 50%;
-    border-collapse:separate;
-    border-spacing:0 40px;
+.grid {
+ 
 }
 
-#rightprojectpane {
+.unit {
     float: left;
     width: 50%;
-    border-collapse:separate;
-    border-spacing:0 40px;
+}
+
+.gutter {
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: 
+     border-box; box-sizing: border-box;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 3em;
 }
 
 .project-arrow {
@@ -159,15 +162,6 @@ ul h3 {
 .down-arrow {
     float: right;
     width: 30px;
-}
-
-.projecttd {
-    margin: auto;
-}
-
-.project {
-    margin: auto;
-    width: 50%;
 }
 
 .project-item-1 {
@@ -242,6 +236,15 @@ ul h3 {
     resize: none;
     overflow: hidden;
     outline: none;
+}
+
+.menutab {
+    border: 2px solid;  
+    z-index: 1;
+    width: 80%;
+    height: 80%;
+    background-color: #ffffff;
+    position: absolute;
 }
 
 #weekday-summary {
