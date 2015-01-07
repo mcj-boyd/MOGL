@@ -1,4 +1,17 @@
+/* color selection
+light bleu: #16619e;
+dark bleu for active project: #004694;
+light bleu for save and btn: 2b11e0;
+dark orange for user hours in retainer running low warning: #ee4c31;
+light orange :#f48f77;
+green: #84c23f;
+dark grey text: #414042;
+light grey: #e6e7e8;
+med grey: #d1d3d4
+dark yellow: #f7a41b;
+light yellow: #fbc16e;
 
+*/
 
 @import url('http://fonts.googleapis.com/css?family=Roboto:500,400italic,100,700italic,300,700,500italic,100italic,300italic,400|Roboto+Condensed:400,300,700' rel='stylesheet' type='text/css'>');
 
