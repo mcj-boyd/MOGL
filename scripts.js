@@ -25,29 +25,20 @@ $(document).ready(function() {
     $('#myinv').hide();
     
     $('#menu li').click( function(){
-        if(this.id == "menuser"){
-            $('#menuser').css("background-color", "#848482");
+        if(this.id == "menumyprofile"){
             $('#perspro').toggle("slide");
             $('#myrepor').hide();
-            $('#menumyreports').css("background-color", "#34282C");
             $('#myinv').hide();
-            $('#menumyinvoices').css("background-color", "#34282C");
         }
         if(this.id == "menumyreports"){
-            $('#menumyreports').css("background-color", "#848482");
             $('#myrepor').toggle("slide");
             $('#perspro').hide();
-            $('#menuser').css("background-color", "#34282C");
             $('#myinv').hide();
-            $('#menumyinvoices').css("background-color", "#34282C");
         }
         if(this.id == "menumyinvoices"){
-            $('#menumyinvoices').css("background-color", "#848482");
             $('#myinv').toggle("slide");
             $('#myrepor').hide();
-            $('#menumyreports').css("background-color", "#34282C");
             $('#perspro').hide();
-            $('#menuser').css("background-color", "#34282C");
         }
         
     });

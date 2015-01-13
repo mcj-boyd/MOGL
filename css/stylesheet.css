@@ -241,11 +241,68 @@ ul h3 {
 .menutab {
     border: 2px solid;  
     z-index: 1;
-    width: 80%;
+    width: 70%;
     height: 80%;
+    margin-left: 5%;
+    margin-top: 2%;
     background-color: #ffffff;
     position: absolute;
 }
+
+.menutablabel {
+    width: 5%;
+    height: 100%;
+    float: left;
+    background-color: #004694;
+}
+
+.verticaltext {
+    transform: rotate(270deg);
+    transform-origin: 75% 100%;
+}
+
+.personal-profile-tab-image {
+    width: 15%;
+    height: 100%;
+    padding-top: 2%;
+    float: left;
+}
+
+.personal-profile-content {
+    width: 80%;
+    height: 100%;
+    margin-top: 2%;
+    float: left;
+    overflow: auto;
+}
+
+.profile-section{
+    margin-top: 2%;
+}
+
+.profile-subsection {
+    margin-top: 2%;
+}
+
+.profile-education {
+    margin-top: 1%;
+}
+
+.contact-table th,td {
+    text-align: left;
+    width: 33.333%;
+}
+
+.banking-info {
+    width: 100%;
+}
+
+.banking-info td{
+    text-align: left;
+    width: 15%;
+}
+
+
 
 #weekday-summary {
     height: 55px;
